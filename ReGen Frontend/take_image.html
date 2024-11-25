@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take Photo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpg" href="logo.png">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <a><img src="logo.png" alt="Logo"></a>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="take_image.html">Recipe Generator</a></li>
+            <li><a href="">Discord Bot</a></li>
+        </ul>
+    </nav>
+
+    <h2>Webcam Image Capture</h2>
+    <video id="video" width="640" height="480" autoplay></video>
+    <button id="start-video-btn">Start Camera</button>
+    <button id="take-photo-btn" style="display: none;">Take Picture</button>
+    <canvas id="canvas" style="display: none;"></canvas>
+    <img id="photo" alt="Captured Image" style="display: none;">
+
+    <footer>
+        <p>&copy; 2024 ReGen. All Rights Reserved.</p>
+        <p>Follow us: 
+            <a href="https://twitter.com" target="_blank">Twitter</a> |
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+        </p>
+    </footer>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
